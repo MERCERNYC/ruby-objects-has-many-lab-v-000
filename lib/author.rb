@@ -19,7 +19,6 @@ class Author
     self.posts << posts
     @@add_post += 1
   end
-  end
 
   def posts
     @posts
