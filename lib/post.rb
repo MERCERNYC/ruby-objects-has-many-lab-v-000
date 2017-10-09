@@ -3,5 +3,8 @@ class Post
 
   def initialize(name)
     @name = name
+  end
+
+  def author_name
   end 
-end 
+end
