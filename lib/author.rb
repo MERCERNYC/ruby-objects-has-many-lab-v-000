@@ -20,6 +20,11 @@ class Author
     @@add_post += 1
   end
 
+  def self.post_count
+    @@post_count
+  end
+  end 
+
   def posts
     @posts
   end
