@@ -18,8 +18,7 @@ class Author
     post.author = self
     self.posts << posts
     @@add_post += 1
-  end 
-
+  end
   end
 
   def posts
